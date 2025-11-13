@@ -72,3 +72,23 @@ const student2={
 
 console.log(addStudentToCourse(student1))
 console.log(addStudentToCourse(student2))
+
+
+
+function userInfo<T>(arg:T):T{
+    return arg
+}
+
+console.log(userInfo<string>('sujon biswas'))
+
+
+interface IName<T>{
+    name:string;
+    bike:T
+}
+
+const data:IName<string>={
+    name:"sujon biswas",
+    bike:"i hasn't a bike"
+}
+console.log(data)

@@ -41,3 +41,10 @@ function getValue(): any {
 
 let strv:number=(getValue() as string).length;
 console.log(strv)
+
+
+
+let number:number = 1
+const num= number as number;
+console.log(num)
+

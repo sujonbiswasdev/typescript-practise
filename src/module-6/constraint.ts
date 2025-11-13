@@ -26,3 +26,17 @@ function GetConstraints<T extends {id:number; name:string;}>(obj:T){
 }
 console.log(GetConstraints(student1))
 console.log(GetConstraints(student2))
+
+const student={
+    id:'103',
+    name:"sujon biswas",
+    company:true
+
+}
+
+function UserInfo1<T extends {id:string,name:string}>(arg:T):T{
+    return arg
+}
+
+
+console.log(UserInfo1(student))

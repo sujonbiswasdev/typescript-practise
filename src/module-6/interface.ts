@@ -93,3 +93,16 @@ const arrFriend:IFriend=["sujon","rajon","ridoy","madob"]
 console.log(arrFriend)
 const arrFriend1:IFriend =['sujon','riyed','alice','karim','rahim']
 console.log(arrFriend1)
+
+
+interface InfoName{
+  name:string;
+  age:number
+}
+
+const result4:InfoName={
+  name:"sujon biswas",
+  age:20
+}
+
+console.log(result4)
